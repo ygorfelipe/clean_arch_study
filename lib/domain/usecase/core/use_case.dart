@@ -1,5 +1,5 @@
 import 'package:dartz/dartz.dart';
-import 'package:estudo_clean_arch_nasa/core/error/failure.dart';
+import 'package:estudo_clean_arch_nasa/core/failures/failure.dart';
 
 abstract class UseCase<R, P> {
   /// Padrao useCase

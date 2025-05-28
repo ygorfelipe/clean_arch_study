@@ -6,7 +6,7 @@
 import 'dart:async' as _i4;
 
 import 'package:dartz/dartz.dart' as _i2;
-import 'package:estudo_clean_arch_nasa/core/error/failure.dart' as _i5;
+import 'package:estudo_clean_arch_nasa/core/failures/failure.dart' as _i5;
 import 'package:estudo_clean_arch_nasa/domain/entities/apod.dart' as _i6;
 import 'package:estudo_clean_arch_nasa/domain/repositories/today_apod/today_apod_repository.dart'
     as _i3;
