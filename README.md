@@ -1,16 +1,10 @@
-# estudo_clean_arch_nasa
+# Aula 2
 
-A new Flutter project.
+## Conteúdo
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1- Implementação do repository p1
+2- Datasource
+3- Implementação Model Apod
+4- Network contrato
+5- Criando os testes
+6- Implementação do repository p2
