@@ -13,6 +13,10 @@ class ApodModel extends Apod {
     super.url,
   });
 
+  // aqui pode ser tanto fromMap como fromJson, desde que converta de forma correta
+  // como estamos trabalhando como clean code e irei trabalhar com nomenclatura padrão
+  // irei manter a conveção de fromMap para compreender melhor os conceitos.
+
   factory ApodModel.fromMap(Map<String, dynamic> json) {
     return switch (json) {
       {

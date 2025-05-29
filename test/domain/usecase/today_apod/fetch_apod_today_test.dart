@@ -31,22 +31,15 @@ void main() {
 
   test('Deve retornar uma entidade Apod do lado direito do Either', () async {
     // descrevendo o cenario
-    when(
-      repository.fechApodtoday(),
-    ).thenAnswer(
+    when(repository.fechApodtoday()).thenAnswer(
       (_) async => Right<Failure, Apod>(tApod()),
     );
 
     // ação
-    final result = await usecase.call(
-      NoParameter(),
-    );
+    final result = await usecase.call(NoParameter());
 
     // esperado
-    expect(
-      result,
-      Right<Failure, Apod>(tApod()),
-    );
+    expect(result, Right<Failure, Apod>(tApod()));
   });
 
   // retorna falha
