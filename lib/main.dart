@@ -1,6 +1,9 @@
+import 'package:estudo_clean_arch_nasa/container_injection.dart';
+import 'package:estudo_clean_arch_nasa/presentation/pages/today_apod/apod_today_page.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+Future<void> main() async {
+  await setUpContainer();
   runApp(const MyApp());
 }
 
@@ -10,8 +13,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      home: null,
+      title: 'Astronomy Picture',
+      home: ApodTodayPage(),
     );
   }
 }

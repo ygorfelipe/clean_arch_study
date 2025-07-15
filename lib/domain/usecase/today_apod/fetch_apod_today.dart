@@ -8,6 +8,8 @@ import '../../repositories/today_apod/today_apod_repository.dart';
 class FetchApodToday extends UseCase<Apod, NoParameter> {
   /// Dentro do usecase é onde iremos realizar as regras de negocio de cada usecase ou seja
   /// Cada busca ou inserção devera ser criado separadamente e não dentro da mesma class
+  /// Simplificando, esse usecase é a camada da qual ela sera usada pela view
+  ///
   final TodayApodRepository repository;
 
   FetchApodToday({required this.repository});

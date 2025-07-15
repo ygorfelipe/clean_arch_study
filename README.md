@@ -1,10 +1,10 @@
-# Aula 2
+# Aula 4
 
 ## Conteúdo
 
-1- Implementação do repository p1
-2- Datasource
-3- Implementação Model Apod
-4- Network contrato
-5- Criando os testes
-6- Implementação do repository p2
+1- Entendendo o Bloc
+2- Implementando o bloc
+3- Implementado os testes do bloc
+4- Fazendo os testes funcionarem
+5- Implementando a injeção de dependências
+6- Criando a primeira tela
